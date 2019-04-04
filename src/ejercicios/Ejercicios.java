@@ -11,6 +11,10 @@ import ejercicios.basicos.Ejercicio06;
 import ejercicios.basicos.Ejercicio08;
 import ejercicios.basicos.Ejercicio10;
 import ejercicios.basicos.Ejercicio12;
+import ejercicios.basicos.Ejercicio14;
+import ejercicios.basicos.Ejercicio20;
+import ejercicios.basicos.Ejercicio26;
+
 public class Ejercicios {
 
     public static void main(String[] args) {
@@ -24,8 +28,13 @@ public class Ejercicios {
 //       ejj8.operacion(); 
 //        Ejercicio10 e10 = new Ejercicio10();
 //       e10.operacion();
-       Ejercicio12 e12 = new Ejercicio12();
-       e12.operacion();
+//       Ejercicio12 e12 = new Ejercicio12();
+//       e12.operacion();
+//        Ejercicio14 e14 = new Ejercicio14();
+//        e14.operacion();
+//        Ejercicio20 e20 = new Ejercicio20();
+//        e20.operacion();
+//        Ejercicio26 e26 = new Ejercicio26();
+//        e26.operacion();
     }
-    
 }
