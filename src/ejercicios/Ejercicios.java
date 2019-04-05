@@ -14,10 +14,14 @@ import ejercicios.basicos.Ejercicio12;
 import ejercicios.basicos.Ejercicio14;
 import ejercicios.basicos.Ejercicio20;
 import ejercicios.basicos.Ejercicio26;
+import ejercicios.basicos.Ejercicio32;
+import ejercicios.basicos.Ejercicio38;
+import ejercicios.basicos.Ejercicio44;
+import java.text.ParseException;
 
 public class Ejercicios {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ParseException {
 //       Ejercicio02 ej = new Ejercicio02();
 //       ej.operacion();
 //       Ejercicio04 ejj = new Ejercicio04();
@@ -36,5 +40,11 @@ public class Ejercicios {
 //        e20.operacion();
 //        Ejercicio26 e26 = new Ejercicio26();
 //        e26.operacion();
+//        Ejercicio32 e32 = new Ejercicio32();
+//        e32.operacion();
+//        Ejercicio38 e38 = new Ejercicio38();
+//        e38.operacion();
+        Ejercicio44 e44 = new Ejercicio44();
+        e44.operacion();
     }
 }
