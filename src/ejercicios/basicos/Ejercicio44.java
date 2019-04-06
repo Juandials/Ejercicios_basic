@@ -18,7 +18,7 @@ public class Ejercicio44 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Inserte número");
         a = sc.nextInt();
-        for (int i = a; i > 0; i--) {
+        for (int i = a; i > 1; i--) {
             b = ((b*i));
         }
         System.out.println(a + "! = " + b);
