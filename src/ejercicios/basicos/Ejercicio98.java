@@ -10,26 +10,25 @@ package ejercicios.basicos;
  * @author judil
  */
 public class Ejercicio98 {
-    public void operacion(){
-       int arg=5, power=5; 
-       factorial(arg);
-//pow(arg,power);
-        //System.out.println(arg+""+power);
+
+    public void operacion() {
+        int arg = 4, pow = 3, var;
+        var = pow(arg, pow);
+        System.out.println(var);
     }
-    public int pow(int x,int y){
-        y=y-1;
-        if(y==0){
-            return x;
-        }
-        else{
-          return x*x;  
-        }
-    }
-    public int factorial(int n) {
-      if (n == 0) {
+
+    public int pow(int x, int y) {
+        int a;
+        if (y == 0) {
             return 1;
-      } else {
-            return n * factorial(n - 1);
-      }
-}
+        } else {
+            a = pow(x, y / 2);
+            if (y % 2 == 0) {
+                return a * a;
+
+            } else {
+                return x * a * a;
+            }
+        }
+    }
 }

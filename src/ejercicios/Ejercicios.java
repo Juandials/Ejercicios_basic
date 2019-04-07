@@ -71,7 +71,7 @@ public class Ejercicios {
 //e86.operacion();
 //Ejercicio92 e92 = new Ejercicio92();
 //e92.operacion();
-Ejercicio98 e98 = new Ejercicio98();
-e98.factorial(5);
+//Ejercicio98 e98 = new Ejercicio98();
+//e98.operacion();
     }
 }
