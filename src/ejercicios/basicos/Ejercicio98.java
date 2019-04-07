@@ -10,7 +10,25 @@ package ejercicios.basicos;
  * @author judil
  */
 public class Ejercicio98 {
-    public void operacion(){
-        
+
+    public void operacion() {
+        int arg = 4, pow = 3, var;
+        var = pow(arg, pow);
+        System.out.println(var);
+    }
+
+    public int pow(int x, int y) {
+        int a;
+        if (y == 0) {
+            return 1;
+        } else {
+            a = pow(x, y / 2);
+            if (y % 2 == 0) {
+                return a * a;
+
+            } else {
+                return x * a * a;
+            }
+        }
     }
 }
