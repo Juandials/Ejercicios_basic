@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package ejercicios;
-
+import java.util.Scanner;
 import ejercicios.basicos.Ejercicio02;
 import ejercicios.basicos.Ejercicio04;
 import ejercicios.basicos.Ejercicio06;
