@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package condicionales;
+package ejercicios.basicos;
 
 /**
  *
@@ -21,9 +21,8 @@ public class Ejercicio68 {
                 if (i == 1) {
                     x[1][4] = x[1][4] + x[i][a];
                 }
-
             }
         }
-        System.out.println("..." + x[0][4] + "..." + x[1][4]);
+        System.out.print("[0][4]= " + x[0][4] + "\n[1][4]= " + x[1][4]+"\n");
     }
 }
