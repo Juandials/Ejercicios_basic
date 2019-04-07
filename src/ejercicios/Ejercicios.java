@@ -26,7 +26,7 @@ import ejercicios.basicos.Ejercicio80;
 import ejercicios.basicos.Ejercicio86;
 import ejercicios.basicos.Ejercicio92;
 import ejercicios.basicos.Ejercicio98;
-//import java.text.ParseException;
+
 
 public class Ejercicios {
 
@@ -49,8 +49,8 @@ public class Ejercicios {
         //        e20.operacion();
         //        Ejercicio26 e26 = new Ejercicio26();
         //        e26.operacion();
-        //        Ejercicio32 e32 = new Ejercicio32();
-        //        e32.operacion();
+//                Ejercicio32 e32 = new Ejercicio32();
+//                e32.operacion();
         //        Ejercicio38 e38 = new Ejercicio38();
         //        e38.operacion();
         //        Ejercicio44 e44 = new Ejercicio44();
@@ -61,11 +61,17 @@ public class Ejercicios {
         //        e56.operacion();
         //        Ejercicio62 e62 = new Ejercicio62();
         //        e62.operacion();
-        //        Ejercicio68 e68 = new Ejercicio68();
-        //        e68.operacion();
-        //Ejercicio74 e74 = new Ejercicio74();
-        //        e74.operacion();
-        Ejercicio80 e80 = new Ejercicio80();
-        e80.operacion();
+//                Ejercicio68 e68 = new Ejercicio68();
+//                e68.operacion();
+//                Ejercicio74 e74 = new Ejercicio74();
+//                        e74.operacion();
+//        Ejercicio80 e80 = new Ejercicio80();
+//        e80.operacion();
+//Ejercicio86 e86 = new Ejercicio86();
+//e86.operacion();
+//Ejercicio92 e92 = new Ejercicio92();
+//e92.operacion();
+Ejercicio98 e98 = new Ejercicio98();
+e98.factorial(5);
     }
 }
